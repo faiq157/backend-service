@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend setup for final year Project",
+  "main": "src/server.js",
+  "scripts": {
+    "dist":"npx tsc",
+    "start": "node dist/server.js",
+    "dev": "nodemon src/server.ts",
+    "prepare": "husky"
+    
+  },
+  "author": "FaiqAhmad",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "husky": "^9.1.5",
+    "lint-staged": "^15.2.9",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
